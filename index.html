@@ -1132,8 +1132,8 @@ function initColorPicker(){
 // ════ INIT ══════════════════════════════════
 (function init(){
   // 1순위: HTML에 빌드 타임 주입된 환경변수 (Vercel/Netlify)
-  const ENV_URL  = '%%VITE_SB_URL%%';
-  const ENV_KEY  = '%%VITE_SB_KEY%%';
+  const ENV_URL  = 'https://ukpfniijcgrfjqwpgnvd.supabase.co';
+  const ENV_KEY  = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVrcGZuaWlqY2dyZmpxd3BnbnZkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM4MjY0MDUsImV4cCI6MjA4OTQwMjQwNX0.MFwx0gXAYk_oKbeAjuYJRGuFMK5GkKD_sRZkkWoISPA';
   const hasEnv   = ENV_URL && !ENV_URL.startsWith('%%');
 
   if(hasEnv){
