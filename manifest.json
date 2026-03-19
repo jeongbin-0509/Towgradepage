@@ -1,0 +1,17 @@
+{
+  "name": "학급 알리미",
+  "short_name": "학급알리미",
+  "description": "선생님과 학생이 함께 사용하는 반별 학사정보 공유 서비스",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e1a",
+  "theme_color": "#0a0e1a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
